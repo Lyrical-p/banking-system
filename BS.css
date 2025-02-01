@@ -19,7 +19,7 @@ body {
   background: linear-gradient(to right, #deeff7 0%, #deeff7 100%);
   background-position: center;
   background-size: cover;
-  height: 300vh;
+  height: 320vh;
 }
 
 .navbar {
@@ -163,7 +163,7 @@ img {
 }
 
 .cn2 .pb {
-  border: #003245;
+  border: linear-gradient(to right, #030961 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -186,7 +186,7 @@ img {
 }
 
 .cn2 .bb {
-  border: #003245;
+  border: linear-gradient(to right, #030961 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -209,7 +209,7 @@ img {
 }
 
 .cn2 .lm {
-  border: #003245;
+  border: linear-gradient(to right, #030961 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -242,7 +242,7 @@ img {
 }
 
 .cn3 .cc {
-  border: #003245;
+  border: linear-gradient(to right, #030961 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -265,7 +265,7 @@ img {
 }
 
 .cn3 .lm2 {
-  border: #003245;
+  border: linear-gradient(to right, #030961 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -285,4 +285,63 @@ img {
 .cn3 .lm2-cn {
   padding-top: 20px;
   color: #003245;
+}
+
+.ft {
+  width: 1210px;
+  display: flex;
+  background: #003245;
+  gap: 250px;
+  height: 120px;
+  margin-top: 1350px;
+  padding-top: 100;
+}
+
+.ft .icon2 {
+  margin-left: 15px;
+  width: 200px;
+}
+
+.ft h1 {
+  font-size: 20px;
+  font-family: '5nter, sans-serif';
+  color: aliceblue;
+}
+
+.ft .logo2 {
+  margin-top: 70px;
+}
+
+.ft .ctn {
+  justify-content: center;
+  align-items: center;
+}
+
+.ft .ctn1 {
+  text-align: left;
+  padding-left: 80px;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.ft .ctn2 {
+  color: aliceblue;
+  margin-top: 13px;
+}
+
+.ft .icons a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.ft .icons ion-icon {
+  color: aliceblue;
+  font-size: 30px;
+  padding-left: 12px;
+  padding-top: 50px;
+  transition: 0.3s ease;
+}
+
+.ft .icons ion-icon:hover {
+  color: aquamarine;
 }
