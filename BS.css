@@ -265,7 +265,7 @@ img {
 }
 
 .cn3 .lm2 {
-  border: linear-gradient(to right, #062942 0%, #030961 100%);
+  border: linear-gradient(to butt, #062942 0%, #030961 100%);
   border-radius: 10px;
   width: 350px;
   height: 450px;
