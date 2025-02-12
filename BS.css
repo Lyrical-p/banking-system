@@ -163,7 +163,7 @@ img {
 }
 
 .cn2 .pb {
-  border: linear-gradient(to right, #030961 0%, #030961 100%);
+  border: linear-gradient(to right, #062942 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -186,7 +186,7 @@ img {
 }
 
 .cn2 .bb {
-  border: linear-gradient(to right, #030961 0%, #030961 100%);
+  border: linear-gradient(to right, #062942 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -209,7 +209,7 @@ img {
 }
 
 .cn2 .lm {
-  border: linear-gradient(to right, #030961 0%, #030961 100%);
+  border: linear-gradient(to right, #062942 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -242,7 +242,7 @@ img {
 }
 
 .cn3 .cc {
-  border: linear-gradient(to right, #030961 0%, #030961 100%);
+  border: linear-gradient(to right, #062942 0%, #030961 100%);
   border-style: solid;
   border-radius: 10px;
   width: 350px;
@@ -265,14 +265,15 @@ img {
 }
 
 .cn3 .lm2 {
-  border: linear-gradient(to right, #030961 0%, #030961 100%);
-  border-style: solid;
+  border: linear-gradient(to right, #062942 0%, #030961 100%);
   border-radius: 10px;
   width: 350px;
   height: 450px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-style: solid;
+  border-color: linear-gradient(to top, #062942 0%, #030961 100%);
 }
 
 .cn3 .lm2 h2 {
