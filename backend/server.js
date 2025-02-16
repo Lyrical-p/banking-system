@@ -1,18 +1,19 @@
-// server.js
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config({ path: './.env' });
 const express = require('express');
 const { createClient } = require('@supabase/supabase-js');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const { Pool } = require('pg'); // Add this line
+const { Pool } = require('pg');
+const supabase = require('./supabaseClient');
+
+console.log('SUPABASE_URL in server.js:', process.env.SUPABASE_URL);
+console.log('SUPABASE_SERVICE_ROLE_KEY in server.js:', process.env.SUPABASE_SERVICE_ROLE_KEY);
 
 const app = express();
 app.use(express.json());
 
-// Initialize Supabase client using environment variables
-const SUPABASE_URL = process.env.SUPABASE_URL;
-const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY; // Use service role key for admin operations
-const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+// Serve static files from the 'frontend/public' directory
+app.use(express.static('../frontend/public'));
 
 // Initialize PostgreSQL client using environment variables
 const pool = new Pool({
