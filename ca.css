@@ -144,7 +144,7 @@ button {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-left: 80px;
+  margin-left: 8s0px;
 }
 button:hover {
   background: #0629;
@@ -218,4 +218,28 @@ button:hover {
 
 .ft .icons ion-icon:hover {
   color: aquamarine;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  section {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .inputbox input {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 16px;
+  }
 }
